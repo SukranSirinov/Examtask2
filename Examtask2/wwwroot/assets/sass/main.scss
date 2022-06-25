@@ -1,0 +1,302 @@
+body {
+    background-image: url(/assets/img/Featured-Images2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+header {
+    .startup {
+        .title {
+            color: #fff;
+
+            h1 {
+
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .btn {
+            color: #fff;
+        }
+    }
+}
+
+main {
+    .features {
+        .container {
+            .row {
+                .fs-title {
+                    h1 {
+                        color: #fff;
+                        font-size: 50px;
+
+
+                    }
+
+                    p {
+                        color: #fff;
+                        font-size: 20px;
+
+                    }
+                }
+            }
+
+            .row {
+                .card-box {
+                    i {
+                        font-size: 40px;
+                    }
+
+                    h1 {
+                        color: #fff;
+                        font-size: 30px;
+                    }
+
+                    p {
+                        color: #959CB1;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .help {
+        .container {
+            .row {
+                .help-title {
+                    h1 {
+                        color: #fff;
+                    }
+
+                    p {
+                        color: #959CB1;
+                    }
+                }
+            }
+        }
+    }
+
+    .partnyor {
+        .container {
+
+            .row {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                .icon-box {
+                    border: 1px solid black;
+                    border-radius: 15px;
+                    
+
+
+                    .icons {
+                        i {
+    
+                            margin-right: 150px;
+                            font-size: 60px;
+                            transition: all 0.5s;
+    
+                            &:hover {
+                                color: #fff;
+                            }
+                        }
+    
+                    }
+
+                }
+
+            }
+        }
+    }
+    .craft{
+        .row{
+            margin-top: 40px;
+            h1{
+                color: #fff;
+
+            }
+            p{
+                color: #959CB1;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    text-decoration: none;
+                    color: #959CB1;
+                    i{
+
+                        border-radius: 3px;
+                        border: 1px solid black;
+                    }
+                }
+            }
+        }
+    }
+    .about{
+        .row{
+            .about-title{
+                .title1{
+                    h1{
+                        color: #fff;
+                    }
+                    p{
+                        color: #fff;
+                    }
+
+                }
+            }
+        }
+    }
+    .user{
+        .container{
+            .row{
+                margin-top: 70px;
+                .user-title{
+                    h1{
+                        color: #fff;
+                    }
+                    p{
+                        color: #959CB1;
+                    }
+                }
+            }
+            .row{
+                .user-card{
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    .user-title{
+                        p{
+                            color: #fff;
+                        }
+                    }
+                    .user{
+                      
+                        .title-info{
+                            h5{
+                                color: #fff;
+                            }
+                            p{
+                                color: #959CB1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pricing{
+        .container{
+            .row{
+                .pr-title{
+                    h1{
+                        color: #fff;
+                    }
+                    p{
+                        color: #959CB1;
+                    }
+                }
+            }
+            .row{
+                .card{
+                    background-color: inherit;
+                    border-radius: 5px;
+                    .card-body{
+                        a{
+                            width: 100%;
+                        }
+                        ul{
+                            margin-top: 30px;
+                            margin-left: -20px;
+                            li{
+                                list-style: none;
+                                text-decoration: none;
+                               
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .comments{
+        .container{
+            .row{
+                .form{
+                    padding: 20px;
+                    border-radius: 10px;
+                    border: 1px solid black ;
+                    .form-title{
+                        h1{
+                            color: #fff;
+                        }
+                        p{
+                            color: #959CB1;
+                        }
+                    }
+                    .form-cont{
+                        .left{
+                           padding-right: 30px;
+                        }
+                    }
+                    .text{
+                        width: 100px;
+                    }
+                }
+                .form2{
+                    padding: 20px;
+                    border-radius: 10px;
+                    border: 1px solid black ;
+                    height: 100%;
+                    .form-title{
+                        h1{
+                            color: #fff;
+                        }
+                        p{
+                            color: #959CB1;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+footer{
+    .container{
+        .row{
+            margin-top: 140px;
+          .startup-ft{
+            p{
+                color: #fff;
+            }
+            i{
+                font-size: 25px;
+                margin-left: 20px;
+            }
+          }
+          .ft-2{
+            h6{
+                color: #fff;
+            }
+            ul{
+                li{
+                    list-style: none;
+                    text-decoration: none;
+                    color: #959CB1;
+                }
+            }
+          }
+        }
+    }
+}

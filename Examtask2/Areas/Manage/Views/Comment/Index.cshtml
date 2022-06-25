@@ -1,0 +1,41 @@
+﻿@model List<Comments>
+@{
+    ViewData["Title"] = "Index";
+}
+    <!-- Items Container Start -->
+                @foreach (var item in Model)
+                {
+                    <div class="card mb-2">
+                        <div class="row g-0 h-100 sh-lg-9 position-relative">
+                            <a href="Products.Detail.html" class="col-auto position-relative image-a">
+                                <img src="~/assets/img/@item.Image" alt="product" class="card-img card-img-horizontal sw-11 h-100" />
+                            </a>
+                            <div class="col py-4 py-lg-0">
+                                <div class="ps-5 pe-4 h-100">
+                                    <div class="row g-0 h-100 align-content-center">
+                                        <a href="Products.Detail.html"
+                                           class="col-11 col-lg-3 d-flex flex-column mb-lg-0 mb-3 pe-3 d-flex order-1 h-lg-100 justify-content-center">
+                                            @item.Title
+                                            <div class="text-small text-muted text-truncate position"></div>
+                                        </a>
+                                        <div class="col-12 col-lg-3 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-3">
+                                            <div class="lh-1 text-alternate">@item.Name</div>
+                                        </div>
+                                        <div class="col-12 col-lg-3 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-4">
+                                            <div class="lh-1 text-alternate">@item.Raiting</div>
+                                        </div>
+                                        <div class="col-12 col-lg-3 d-flex flex-column pe-1 mb-2 mb-lg-0 justify-content-center order-4">
+                                            <div class="lh-1 text-alternate">@item.Email</div>
+                                        </div>
+                                        <div class="col-1 d-flex flex-row mb-2 mb-lg-0 align-items-center order-2 order-lg-last justify-content-lg-center">
+                                        <a asp-controller="Comment" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-primary mx-lg-1">Delete</a>
+
+                                            <a asp-controller="Comment" asp-action="Update" asp-route-id="@item.Id" class="btn btn-outline-primary mx-lg-1">Edit</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    }
+

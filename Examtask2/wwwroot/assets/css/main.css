@@ -1,0 +1,230 @@
+body {
+  background-image: url(/assets/img/Featured-Images2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header .startup .title {
+  color: #fff;
+}
+
+header .startup .title h1 {
+  font-size: 50px;
+}
+
+header .startup .title p {
+  font-size: 20px;
+}
+
+header .startup .btn {
+  color: #fff;
+}
+
+main .features .container .row .fs-title h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+main .features .container .row .fs-title p {
+  color: #fff;
+  font-size: 20px;
+}
+
+main .features .container .row .card-box i {
+  font-size: 40px;
+}
+
+main .features .container .row .card-box h1 {
+  color: #fff;
+  font-size: 30px;
+}
+
+main .features .container .row .card-box p {
+  color: #959CB1;
+}
+
+main .help .container .row .help-title h1 {
+  color: #fff;
+}
+
+main .help .container .row .help-title p {
+  color: #959CB1;
+}
+
+main .partnyor .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+main .partnyor .container .row .icon-box {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+main .partnyor .container .row .icon-box .icons i {
+  margin-right: 150px;
+  font-size: 60px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+main .partnyor .container .row .icon-box .icons i:hover {
+  color: #fff;
+}
+
+main .craft .row {
+  margin-top: 40px;
+}
+
+main .craft .row h1 {
+  color: #fff;
+}
+
+main .craft .row p {
+  color: #959CB1;
+}
+
+main .craft .row ul li {
+  list-style: none;
+  text-decoration: none;
+  color: #959CB1;
+}
+
+main .craft .row ul li i {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+main .about .row .about-title .title1 h1 {
+  color: #fff;
+}
+
+main .about .row .about-title .title1 p {
+  color: #fff;
+}
+
+main .user .container .row {
+  margin-top: 70px;
+}
+
+main .user .container .row .user-title h1 {
+  color: #fff;
+}
+
+main .user .container .row .user-title p {
+  color: #959CB1;
+}
+
+main .user .container .row .user-card {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+main .user .container .row .user-card .user-title p {
+  color: #fff;
+}
+
+main .user .container .row .user-card .user .title-info h5 {
+  color: #fff;
+}
+
+main .user .container .row .user-card .user .title-info p {
+  color: #959CB1;
+}
+
+main .pricing .container .row .pr-title h1 {
+  color: #fff;
+}
+
+main .pricing .container .row .pr-title p {
+  color: #959CB1;
+}
+
+main .pricing .container .row .card {
+  background-color: inherit;
+  border-radius: 5px;
+}
+
+main .pricing .container .row .card .card-body a {
+  width: 100%;
+}
+
+main .pricing .container .row .card .card-body ul {
+  margin-top: 30px;
+  margin-left: -20px;
+}
+
+main .pricing .container .row .card .card-body ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+main .comments .container .row .form {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+main .comments .container .row .form .form-title h1 {
+  color: #fff;
+}
+
+main .comments .container .row .form .form-title p {
+  color: #959CB1;
+}
+
+main .comments .container .row .form .form-cont .left {
+  padding-right: 30px;
+}
+
+main .comments .container .row .form .text {
+  width: 100px;
+}
+
+main .comments .container .row .form2 {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 100%;
+}
+
+main .comments .container .row .form2 .form-title h1 {
+  color: #fff;
+}
+
+main .comments .container .row .form2 .form-title p {
+  color: #959CB1;
+}
+
+footer .container .row {
+  margin-top: 140px;
+}
+
+footer .container .row .startup-ft p {
+  color: #fff;
+}
+
+footer .container .row .startup-ft i {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+footer .container .row .ft-2 h6 {
+  color: #fff;
+}
+
+footer .container .row .ft-2 ul li {
+  list-style: none;
+  text-decoration: none;
+  color: #959CB1;
+}
+/*# sourceMappingURL=main.css.map */
